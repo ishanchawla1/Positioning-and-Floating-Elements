@@ -39,6 +39,7 @@ margin-right: auto;
 }
 .ima{
    max-width: 1200px;
+   margin-bottom: 10px;
 }
 .slim{
   margin: 0;
@@ -98,7 +99,7 @@ a:hover{
 .imageTitle{
   padding-top: 5px;
   color: #666;
-  font-size: 15px;
+  font-size: 16px;
   display: inline;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
@@ -168,7 +169,7 @@ justify-content: space-between;
 }
 a :hover{
   background-color:white;
-  text-decoration-line: underline;
+  text-decoration-line: ;
 }
 .bookmark{
   height: 20px;
