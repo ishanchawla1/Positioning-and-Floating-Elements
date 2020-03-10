@@ -1,4 +1,4 @@
-.ers{
+.random{
   border: tomato solid 0.1px;
 }
 .menuBar {
@@ -107,13 +107,36 @@ a:hover{
   font-size: 13px;
 font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
-.author{
-  max-width: 600px;
+.ar{
+  padding-left: 200px;
+  width: 800px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+.author{
+  max-width: 800px;
   margin-bottom: 15px;
 }
+.content{
+  max-width: 600px;
+  float: left;
+}
+.sidebar{
+  width: 200px;
+  max-width: 200px;
+  float: right;
+  border: 1px solid red;
+}
+.flexit{
+  padding-left: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
 .social{
+  width: 600px;
+  max-width: 600px;
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
@@ -145,6 +168,7 @@ justify-content: space-between;
 }
 a :hover{
   background-color:white;
+  text-decoration-line: underline;
 }
 .bookmark{
   height: 20px;
@@ -152,4 +176,15 @@ a :hover{
   width: 20px;
   margin-left: 10px;
   margin-right: 10px;
+}
+.sideColumn{
+  vertical-align: middle;
+}
+.withEditorPicks{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.blue{
+  color: blue;
 }
