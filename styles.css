@@ -1,7 +1,8 @@
 .wow {
   border: tomato solid 0.1px;
 }
-.menuBar  {
+
+.menuBar {
   content: "";
   clear: all;
   padding-top: 10px;
@@ -10,11 +11,13 @@
   width: auto;
   border-bottom: 1px solid #e2e2e2;
 }
+
 nav {
   position: sticky;
   top: 0;
   background-color: white;
 }
+
 
 .icons {
   float: left;
@@ -23,32 +26,39 @@ nav {
   margin-right: 10px;
   margin-left: 10px;
 }
+
 .logo {
 margin-left: auto;
 margin-right: auto;
   width: 200px;
 }
+
 .sectionHeader {
   width: auto;
   height: 10px;
   color: black;
   text-transform: uppercase;
 }
+
 .hyperLinks {
   color: black;
 }
+
 .ima {
-   max-width: 1200px;
-   margin-bottom: 10px;
+  max-width: 1200px;
+  margin-bottom: 10px;
 }
+
 .slim {
   margin: 0;
   padding: 0;
   size: 0.5;
 }
+
 .mainSection {
   width: 100%;
 }
+
 .mainHeader {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -63,6 +73,7 @@ margin-right: auto;
   color: #121212;
   vertical-align: baseline;
 }
+
 .topImage {
   width: 1200px;
   display: block;
@@ -71,16 +82,21 @@ margin-right: auto;
   max-width: 1200px;
   margin-bottom: 50px;
 }
+
 a {
-color: black;
-text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
+
 a: hover {
   text-decoration: underline;
 }
+
 .fontSet {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;font-weight: 700;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
 }
+
 .topButton {
   all: unset;
   font-size: 11px;
@@ -94,6 +110,7 @@ a: hover {
   border: 1px;
 }
 
+
 .imageTitle {
   padding-top: 5px;
   color: #666;
@@ -101,11 +118,13 @@ a: hover {
   display: inline;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
+
 .credit {
   color: #888;
   font-size: 13px;
 font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
+
 .ar {
   padding-left: 200px;
   width: 800px;
@@ -113,29 +132,35 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
   margin-left: auto;
   margin-right: auto;
 }
+
 .author {
   max-width: 800px;
   margin-bottom: 15px;
 }
+
 .content {
   max-width: 600px;
   float: left;
 }
+
 .sidebar {
   width: 200px;
   max-width: 200px;
   float: right;
   border: 1px solid red;
 }
+
 .flexit {
   padding-left: 200px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
+
 .left {
   float: left;
 }
+
 .right {
   float: right;
   display: flex;
@@ -143,6 +168,7 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
   padding-left: 10px;
   padding-right: 5px;
 }
+
 .ssc {
   display: inline-block;
   vertical-align: middle;
@@ -155,10 +181,12 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
   margin-left: 10px;
   margin-right: 10px;
 }
+
 a : hover {
   background-color: white;
   text-decoration-line: underline;
 }
+
 .bookmark {
   height: 20px;
   padding: 5px;
@@ -166,28 +194,34 @@ a : hover {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .sideColumn {
   vertical-align: middle;
 }
+
 .withEditorPicks {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
 }
+
 .blue {
   color: blue;
 }
+
 /*grid*/
 .container {
   display: grid;
   grid-template-columns: repeat(14,1fr);
   grid-gap: 20px;
 }
+
 .item {
   border: cadetblue 1px solid;
   border-radius: 3px;
   background-color: chartreuse;
 }
+
 .heading {
   grid-column: 5/10;
   grid-row: 3/4;
@@ -197,30 +231,36 @@ a : hover {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #121212;
 }
+
 .mainImage {
   
   grid-column: 2/4;
   grid-row: 2/3;
 }
+
 .container2 {
   display: grid;
   grid-template-columns: 1fr 900px 300px 1fr;
   grid-template-rows: 30px 675px 15px 100px;
 }
 
+
 .imgT {
   grid-column: 2/3;
   grid-row: 4/5;
 }
+
 .container3 {
   display: grid;
   grid-template-columns: 1fr 300px 600px 300px 1fr;
   grid-template-rows: 35px 15px 20px 35px repeat(5,auto)
 }
+
 .aa {
   grid-column: 3/4;
   grid-row: 1/2;
 }
+
 .social {
   grid-column: 3/4;
   grid-row: 3/4;
@@ -229,10 +269,12 @@ a : hover {
   list-style: none;
 justify-content: space-between;
 }
+
 .item1 {
   grid-column: 3/4;
   grid-row: 5/6;
 }
+
 .container4 {
   display: grid;
   grid-template-columns: 1fr repeat(4,236px) 1fr;
@@ -240,47 +282,56 @@ justify-content: space-between;
   font-size: 14px;
   font-weight: 300;
 }
+
 .inflation {
   display: block;
   max-width: 945px;
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
 .text1 {
   grid-column: 2;
   grid-row: 2;
   padding: 10px;
 }
+
 .text2 {
   grid-column: 3;
   grid-row: 2;
   padding: 10px;
 }
+
 .text3 {
   grid-column: 4;
   grid-row: 2;
   padding: 10px;
 }
+
 .text4 {
   grid-column: 5;
   grid-row: 2;
   padding: 10px;
 }
+
 .text5 {
   grid-column: 2;
   grid-row: 4;
   padding: 10px;
 }
+
 .text6 {
   grid-column: 3;
   grid-row: 4;
   padding: 10px;
 }
+
 .text7 {
   grid-column: 4;
   grid-row: 4;
   padding: 10px;
 }
+
 .text8 {
   grid-column: 5;
   grid-row: 4;
