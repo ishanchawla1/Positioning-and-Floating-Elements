@@ -1,7 +1,7 @@
-.wow{
+.wow {
   border: tomato solid 0.1px;
 }
-.menuBar {
+.menuBar  {
   content: "";
   clear: all;
   padding-top: 10px;
@@ -10,46 +10,46 @@
   width: auto;
   border-bottom: 1px solid #e2e2e2;
 }
-nav{
+nav {
   position:sticky;
   top: 0;
   background-color:white;
 }
 
-.icons{
+.icons {
   float: left;
   width: 16px;
   padding-top: 5px;
   margin-right: 10px;
   margin-left: 10px;
 }
-.logo{
+.logo {
 margin-left: auto;
 margin-right: auto;
   width: 200px;
 }
-.sectionHeader{
+.sectionHeader {
   width: auto;
   height: 10px;
   color: black;
   text-transform:uppercase;
 }
-.hyperLinks{
+.hyperLinks {
   color: black;
 }
-.ima{
+.ima {
    max-width: 1200px;
    margin-bottom: 10px;
 }
-.slim{
+.slim {
   margin: 0;
   padding: 0;
   size: 0.5;
 }
-.mainSection{
+.mainSection {
   width: 100%;
 }
-.mainHeader{
+.mainHeader {
   margin-top: 60px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -63,7 +63,7 @@ margin-right: auto;
   color: #121212;
   vertical-align: baseline;
 }
-.topImage{
+.topImage {
   width: 1200px;
   display: block;
   margin-left: auto;
@@ -71,17 +71,17 @@ margin-right: auto;
   max-width: 1200px;
   margin-bottom: 50px;
 }
-a{
+a {
 color: black;
 text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
-.fontSet{
+.fontSet {
   font-family: nyt-franklin,helvetica,arial,sans-serif;font-weight:700;
 }
-.topButton{
+.topButton {
   all:unset;
   font-size: 11px;
   float: right;
@@ -94,56 +94,56 @@ a:hover{
   border: 1px;
 }
 
-.imageTitle{
+.imageTitle {
   padding-top: 5px;
   color: #666;
   font-size: 16px;
   display: inline;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
-.credit{
+.credit {
   color: #888;
   font-size: 13px;
 font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
-.ar{
+.ar {
   padding-left: 200px;
   width: 800px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
-.author{
+.author {
   max-width: 800px;
   margin-bottom: 15px;
 }
-.content{
+.content {
   max-width: 600px;
   float: left;
 }
-.sidebar{
+.sidebar {
   width: 200px;
   max-width: 200px;
   float: right;
   border: 1px solid red;
 }
-.flexit{
+.flexit {
   padding-left: 200px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
-.left{
+.left {
   float: left;
 }
-.right{
+.right {
   float: right;
   display: flex;
   flex-wrap: nowrap;
   padding-left: 10px;
   padding-right: 5px;
 }
-.ssc{
+.ssc {
   display:inline-block;
   vertical-align:middle;
   background-color:#eee;
@@ -155,40 +155,40 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
   margin-left: 10px;
   margin-right: 10px;
 }
-a :hover{
+a :hover {
   background-color:white;
   text-decoration-line: underline;
 }
-.bookmark{
+.bookmark {
   height: 20px;
   padding:5px;
   width: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.sideColumn{
+.sideColumn {
   vertical-align: middle;
 }
-.withEditorPicks{
+.withEditorPicks {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
 }
-.blue{
+.blue {
   color: blue;
 }
 /*grid*/
-.container{
+.container {
   display: grid;
   grid-template-columns: repeat(14,1fr);
   grid-gap:20px;
 }
-.item{
+.item {
   border: cadetblue 1px solid;
   border-radius: 3px;
   background-color: chartreuse;
 }
-.heading{
+.heading {
   grid-column: 5/10;
   grid-row: 3/4;
   font-size: 40px;
@@ -197,31 +197,31 @@ a :hover{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #121212;
 }
-.mainImage{
+.mainImage {
   
   grid-column:  2/4;
   grid-row: 2/3;
 }
-.container2{
+.container2 {
   display: grid;
   grid-template-columns: 1fr 900px 300px 1fr;
   grid-template-rows: 30px 675px 15px 100px;
 }
 
-.imgT{
+.imgT {
   grid-column: 2/3;
   grid-row: 4/5;
 }
-.container3{
+.container3 {
   display: grid;
   grid-template-columns: 1fr 300px 600px 300px 1fr;
   grid-template-rows: 35px 15px 20px 35px repeat(5,auto)
 }
-.aa{
+.aa {
   grid-column:  3/4;
   grid-row: 1/2;
 }
-.social{
+.social {
   grid-column: 3/4;
   grid-row: 3/4;
   display: flex;
@@ -229,59 +229,59 @@ a :hover{
   list-style: none;
 justify-content: space-between;
 }
-.item1{
+.item1 {
   grid-column: 3/4;
   grid-row: 5/6;
 }
-.container4{
+.container4 {
   display: grid;
   grid-template-columns: 1fr repeat(4,236px) 1fr;
   grid-template-rows: repeat(2,135px 150px);
   font-size: 14px;
   font-weight: 300;
 }
-.inflation{
+.inflation {
   display: block;
   max-width: 945px;
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.text1{
+.text1 {
   grid-column: 2;
   grid-row: 2;
   padding: 10px;
 }
-.text2{
+.text2 {
   grid-column: 3;
   grid-row: 2;
   padding: 10px;
 }
-.text3{
+.text3 {
   grid-column: 4;
   grid-row: 2;
   padding: 10px;
 }
-.text4{
+.text4 {
   grid-column: 5;
   grid-row: 2;
   padding: 10px;
 }
-.text5{
+.text5 {
   grid-column: 2;
   grid-row: 4;
   padding: 10px;
 }
-.text6{
+.text6 {
   grid-column: 3;
   grid-row: 4;
   padding: 10px;
 }
-.text7{
+.text7 {
   grid-column: 4;
   grid-row: 4;
   padding: 10px;
 }
-.text8{
+.text8 {
   grid-column: 5;
   grid-row: 4;
   padding: 10px;
