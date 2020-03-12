@@ -62,14 +62,14 @@ margin-right: auto;
 .mainHeader {
   margin-top: 60px;
   margin-bottom: 30px;
-  margin-left: auto;
+  margin-left: 400px;
   margin-right: auto;
-  width: 600px;
+  width: 450px;
   font-size: 40px;
-  max-width: 600px;
+  max-width: 450px;
   font-weight: 700;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'nyt-cheltenham' ;
   color: #121212;
   vertical-align: baseline;
 }
@@ -210,23 +210,12 @@ a : hover {
 }
 
 /*grid*/
-.container {
-  display: grid;
-  grid-template-columns: repeat(14,1fr);
-  grid-gap: 20px;
-}
-
-.item {
-  border: cadetblue 1px solid;
-  border-radius: 3px;
-  background-color: chartreuse;
-}
-
 .heading {
   grid-column: 5/10;
   grid-row: 3/4;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
+  max-width: 383.777px;
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #121212;
@@ -260,7 +249,37 @@ a : hover {
   grid-column: 3/4;
   grid-row: 1/2;
 }
-
+.editorSidebarElementsHeading{
+  margin: 10px 10px 15px 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.editorsSidebar{
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  grid-column: 4/5;
+  border: 1px red solid;
+  grid-row: 5;
+}
+.editorSidebarText{
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+}
+.editorSidebarImage{
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin-right: 10px ;
+}
+.editorSidebarElements{
+  margin: 10px;
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .social {
   grid-column: 3/4;
   grid-row: 3/4;
@@ -605,4 +624,13 @@ width: auto;
 }
 .upArrow{
   width: 16px;
+}
+@font-face {
+  font-family: 'nyt-cheltenham';
+  src: url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.f99a0459024509f157a3352e5de4f873.woff2') format('woff2'),
+       url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff') format('woff'),
+       url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.c690b74328fddd7feff3bc4c1c1a0cd8.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
 }
