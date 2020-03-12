@@ -86,7 +86,6 @@ margin-right: auto;
 a {
   color: black;
   text-decoration: none;
-  padding: 5px;
 }
 
 a:hover {
@@ -279,7 +278,7 @@ justify-content: space-between;
 .container4 {
   display: grid;
   grid-template-columns: 1fr repeat(4,236px) 1fr;
-  grid-template-rows: repeat(2,135px 150px);
+  grid-template-rows: 20px 20px repeat(2,135px 150px);
   font-size: 14px;
   font-weight: 300;
 }
@@ -288,54 +287,58 @@ justify-content: space-between;
   display: block;
   max-width: 945px;
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 3/4;
 }
 
 .text1 {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
   padding: 10px;
 }
-
 .text2 {
-  grid-column: 3;
-  grid-row: 2;
+  grid-column: 2;
+  grid-row: 4;
   padding: 10px;
 }
-
 .text3 {
-  grid-column: 4;
-  grid-row: 2;
+  grid-column: 3;
+  grid-row: 4;
   padding: 10px;
 }
 
 .text4 {
-  grid-column: 5;
-  grid-row: 2;
+  grid-column: 4;
+  grid-row: 4;
   padding: 10px;
 }
 
 .text5 {
-  grid-column: 2;
+  grid-column: 5;
   grid-row: 4;
   padding: 10px;
 }
 
 .text6 {
-  grid-column: 3;
-  grid-row: 4;
+  grid-column: 2;
+  grid-row: 6;
   padding: 10px;
 }
 
 .text7 {
-  grid-column: 4;
-  grid-row: 4;
+  grid-column: 3;
+  grid-row: 6;
   padding: 10px;
 }
 
 .text8 {
+  grid-column: 4;
+  grid-row: 6;
+  padding: 10px;
+}
+
+.text9 {
   grid-column: 5;
-  grid-row: 4;
+  grid-row: 6;
   padding: 10px;
 }
 
@@ -498,6 +501,23 @@ br{
   grid-column: 6;
   grid-row: 2;
 
+}
+.footerImg{
+  width: 12px;
+}
+.footerLinkText{
+  font-weight: 700;
+  height:25px;
+}
+.noStyle{
+  font-size: 16px;
+  margin: none !important;
+  list-style: none;
+  padding-left: 0px;
+}
+.noMarginNoPadding{
+  margin: none;
+  padding: none;
 }
 .sixthColumns{
   grid-column: 7;
