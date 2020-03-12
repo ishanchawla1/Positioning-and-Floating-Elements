@@ -460,7 +460,7 @@ br{
 .footerContainer{
   display: grid;
   grid-template-columns: repeat(6,2fr) 3fr 2fr;
-  grid-template-rows: repeat(3,50px 40px);
+  grid-template-rows: 50px 350px;
 }
 .footerTopImage{
   width: 170px;
@@ -479,10 +479,38 @@ br{
   grid-row: 2;
 
 }
+.secondColumns{
+  grid-column: 3;
+  grid-row: 2;
+
+}
+.thirdColumns{
+  grid-column: 4;
+  grid-row: 2;
+
+}
+.fourthColumns{
+  grid-column: 5;
+  grid-row: 2;
+
+}
+.fifthColumns{
+  grid-column: 6;
+  grid-row: 2;
+
+}
+.sixthColumns{
+  grid-column: 7;
+  grid-row: 2;
+}
 .footerTitleText{
   padding: 0;
   font-weight: 700;
   text-transform: uppercase;
+}
+.footerLinkTexts{
+  padding: 0;
+  font-size: 16px;
 }
 .footerLinks{
   margin-left: auto;
