@@ -50,7 +50,7 @@ nav {
   max-width: 450px;
   font-weight: 700;
   font-style: italic;
-  font-family: 'nyt-cheltenham' ;
+  font-family: 'nyt-cheltenham', 'Georgia  ' ;
   color: #121212;
   vertical-align: baseline;
 }
@@ -126,7 +126,7 @@ a:hover {
 .credit {
   color: #888;
   font-size: 13px;
-font-family: nyt-imperial,georgia, 'times new roman', times,  serif;
+   font-family: nyt-imperial, georgia, 'times new roman', times,  serif;
 }
 
 .ar {
@@ -149,7 +149,7 @@ font-family: nyt-imperial,georgia, 'times new roman', times,  serif;
 .right {
   float: right;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; 
   padding-left: 10px;
   padding-right: 5px;
 }
@@ -215,14 +215,14 @@ a:hover {
 .container3 {
   display: grid;
   grid-template-columns: 1fr 300px 600px 300px 1fr;
-  grid-template-rows: 35px 15px 20px 35px repeat(5,auto);
-} 
+  grid-template-rows: 35px 15px 20px 35px repeat(5, auto);
+}
 
 .container3_1 {
   margin-top: 25px;
   display: grid;
   grid-template-columns: 1fr 300px 600px 300px 1fr;
-  grid-template-rows: repeat(5,auto);
+  grid-template-rows: repeat(5, auto);
 } 
 
 .aa {
@@ -252,7 +252,7 @@ a:hover {
 .mainSectionImage > img:nth-child(1) {
   width: 720px;
 }
- 
+
 .videoFooter {
   color: #666;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
@@ -282,7 +282,7 @@ a:hover {
 .mainFooterText {
   font-size: 12px;
   font-weight: 400;
-  color:rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
   margin-bottom: 20px;
 }
 
@@ -301,7 +301,7 @@ a:hover {
 }
 
 h3 {
-  all:unset;
+  all: unset;
 }
 
 .editorSidebarText {
@@ -314,7 +314,7 @@ h3 {
   width: 75px;
   height: 75px;
   display: block;
-  margin-right: 10px ;
+  margin-right: 10px;
 }
 
 .editorSidebarElements {
@@ -330,7 +330,7 @@ h3 {
   display: flex;
   flex-wrap: nowrap;
   list-style: none;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .item1 {
@@ -343,8 +343,8 @@ justify-content: space-between;
 
 .container4 {
   display: grid;
-  grid-template-columns: 1fr repeat(4,236px) 1fr;
-  grid-template-rows: 20px 50px repeat(2,135px 150px) 24px 37px;
+  grid-template-columns: 1fr repeat(4, 236px) 1fr;
+  grid-template-rows: 20px 50px repeat(2, 135px 150px) 24px 37px;
   font-size: 14px;
   font-weight: 300;
 }
@@ -473,8 +473,8 @@ justify-content: space-between;
 
 .container5 {
   display: grid;
-  grid-template-columns: repeat(7,2fr);
-  grid-template-rows: 1px 40px repeat(2,200px 100px) 40px 1px 200px 100px 40px;
+  grid-template-columns: repeat(7, 2fr);
+  grid-template-rows: 1px 40px repeat(2, 200px 100px) 40px 1px 200px 100px 40px;
 }
 
 .imageCharacter {
@@ -670,7 +670,7 @@ br {
 
 .footerContainer {
   display: grid;
-  grid-template-columns: repeat(6,2fr) 3fr 2fr;
+  grid-template-columns: repeat(6, 2fr) 3fr 2fr;
   grid-template-rows: 1px 50px 350px;
 }
 
