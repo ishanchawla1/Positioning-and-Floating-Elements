@@ -1,10 +1,9 @@
-# Project Name
+# New York Times CLone
 
-> One paragraph statement about the project.
+> This project was made as a part of Microverse Curriculum for FUll Stack Developer for Positioning-and-Floating-Elements Project
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
@@ -34,7 +33,7 @@ CSS grid & Flex bo
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ishanchawla1/Positioning-and-Floating-Elements/issues).
 
 ## Show your support
 
