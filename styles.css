@@ -382,7 +382,7 @@ h3 {
 .text2 {
   font-size: 14px;
   font-weight: 200 !important;
-  color: #000000;
+  color: #000;
   grid-column: 2;
   grid-row: 4;
   padding: 10px;
@@ -391,7 +391,7 @@ h3 {
 .text3 {
   font-size: 14px;
   font-weight: 200;
-  color: #000000;
+  color: #000;
   grid-column: 3;
   grid-row: 4;
   padding: 10px;
@@ -400,7 +400,7 @@ h3 {
 .text4 {
   font-size: 14px;
   font-weight: 200 !important;
-  color: #000000;
+  color: #000;
   grid-column: 4;
   grid-row: 4;
   padding: 10px;
@@ -409,7 +409,7 @@ h3 {
 .text5 {
   font-size: 14px;
   font-weight: 200 !important;
-  color: #000000;
+  color: #000;
   grid-column: 5;
   grid-row: 4;
   padding: 10px;
@@ -418,7 +418,7 @@ h3 {
 .text6 {
   font-size: 14px;
   font-weight: 200 !important;
-  color: #000000;
+  color: #000;
   grid-column: 2;
   grid-row: 6;
   padding: 10px;
@@ -427,7 +427,7 @@ h3 {
 .text7 {
   font-size: 14px;
   font-weight: 200 !important;
-  color: #000000;
+  color: #000;
   grid-column: 3;
   grid-row: 6;
   padding: 10px;
@@ -436,7 +436,7 @@ h3 {
 .text8 {
   font-size: 14px;
   font-weight: 200 !important;
-  color: #000000;
+  color: #000;
   grid-column: 4;
   grid-row: 6;
   padding: 10px;
@@ -445,7 +445,7 @@ h3 {
 .text9 {
   font-size: 14px;
   font-weight: 200 !important;
-  color: #000000;
+  color: #000;
   grid-column: 5;
   grid-row: 6;
   padding: 10px;
@@ -624,10 +624,10 @@ h3 {
 }
 
 .descriptionDate {
- color: rgb(153, 153, 153);
- font-size: 12px;
- margin-top: 2px;
- font-weight: 500;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  margin-top: 2px;
+  font-weight: 500;
 }
 
 .container5MainHeader {
@@ -659,13 +659,13 @@ h3 {
 }
 
 p {
-  margin: 0px;
-  padding: 0px;
+  margin: none;
+  padding: none;
 }
 
 br {
-  margin: 0px;
-  padding: 0px;
+  margin: none;
+  padding: none;
 }
 
 .footerContainer {
@@ -684,7 +684,7 @@ br {
   width: 170px;
   grid-column: 2/6;
   grid-row: 2;
-  padding: 10px 10px 10px 0px;
+  padding: 10px, 10px, 10px, 0px;
 }
 
 .goToHomePage {
@@ -730,14 +730,14 @@ br {
 
 .footerLinkText {
   font-weight: 700;
-  height:25px;
+  height: 25px;
 }
 
 .noStyle {
   font-size: 14px;
   font-weight: 500;
   margin-top: 7px;
-  margin: none !important;
+  margin: none;
   list-style: none;
   padding-left: 0px;
 }
@@ -775,14 +775,14 @@ br {
 
 .footerLinks {
   margin-left: auto;
-margin-right: auto;
-margin-bottom: 25px;
-text-align: center;
-font-size: 11px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 11px;
 }
 
 .colGrey {
-  color: #666666 !important;
+  color: #666 !important;
 }
 
 .bottomNavigation {
@@ -802,7 +802,7 @@ font-size: 11px;
   float: left;
   font-size: 15px;
   font-weight: 400;
-width: auto;
+  width: auto;
 }
 
 .bottomNavigationButton {
