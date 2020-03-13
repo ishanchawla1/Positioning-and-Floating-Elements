@@ -680,7 +680,7 @@ br {
   width: 170px;
   grid-column: 2/6;
   grid-row: 2;
-  padding: 10px, 10px, 10px, none;
+  padding-top: 10px;
 }
 
 .goToHomePage {
