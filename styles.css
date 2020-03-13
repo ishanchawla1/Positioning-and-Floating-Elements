@@ -23,8 +23,8 @@ nav {
 }
 
 .logo {
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
 }
 
@@ -74,7 +74,7 @@ a:hover {
 }
 
 .fontSet {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   color: #e2e2e2;
 }
@@ -104,16 +104,15 @@ a:hover {
   background-color: #567b95;
   color: white;
   border: 1px;
-  width: 300px;
   text-align: center;
 }
 
 .topButton:hover {
-  background-color : #326891;
+  background-color: #326891;
 }
 
 .bottomButton:hover {
-  background-color : #326891;
+  background-color: #326891;
 }
 
 .imageTitle {
@@ -121,13 +120,13 @@ a:hover {
   color: #666;
   font-size: 16px;
   display: inline;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .credit {
   color: #888;
   font-size: 13px;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
+font-family: nyt-imperial,georgia, 'times new roman', times,  serif;
 }
 
 .ar {
@@ -185,7 +184,7 @@ a:hover {
   color: #326891;
 }
 
-/*grid*/
+/* grid */
 .heading {
   grid-column: 5/10;
   grid-row: 3/4;
@@ -216,14 +215,14 @@ a:hover {
 .container3 {
   display: grid;
   grid-template-columns: 1fr 300px 600px 300px 1fr;
-  grid-template-rows: 35px 15px 20px 35px repeat(5,auto) ;
+  grid-template-rows: 35px 15px 20px 35px repeat(5,auto);
 } 
 
 .container3_1 {
   margin-top: 25px;
   display: grid;
   grid-template-columns: 1fr 300px 600px 300px 1fr;
-  grid-template-rows: repeat(5,auto) ;
+  grid-template-rows: repeat(5,auto);
 } 
 
 .aa {
@@ -252,11 +251,11 @@ a:hover {
 
 .mainSectionImage > img:nth-child(1) {
   width: 720px;
- }
+}
  
 .videoFooter {
   color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   text-align: left;
   font-size: 14px;
   width: 600px;
@@ -266,7 +265,7 @@ a:hover {
 
 .imageFooter {
   color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   text-align: left;
   font-size: 15px;
   margin-left: auto;
