@@ -50,7 +50,7 @@ nav {
   max-width: 450px;
   font-weight: 700;
   font-style: italic;
-  font-family: nyt-cheltenham, Georgia, helvetica;
+  font-family: nyt-cheltenham, helvetica, arial, sans-serif;
   color: #121212;
   vertical-align: baseline;
 }
