@@ -50,7 +50,7 @@ nav {
   max-width: 450px;
   font-weight: 700;
   font-style: italic;
-  font-family: 'nyt-cheltenham', 'Georgia  ' ;
+  font-family: 'nyt-cheltenham', 'Georgia  ';
   color: #121212;
   vertical-align: baseline;
 }
@@ -126,7 +126,7 @@ a:hover {
 .credit {
   color: #888;
   font-size: 13px;
-   font-family: nyt-imperial, georgia, 'times new roman', times,  serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times,  serif;
 }
 
 .ar {
@@ -655,7 +655,7 @@ h3 {
   font-size: 16px;
   font-weight: 700;
   margin-top: auto;
-  margin-bottom: auto; 
+  margin-bottom: auto;
 }
 
 p {
@@ -684,7 +684,7 @@ br {
   width: 170px;
   grid-column: 2/6;
   grid-row: 2;
-  padding: 10px, 10px, 10px, 0px;
+  padding: 10px, 10px, 10px, none;
 }
 
 .goToHomePage {
@@ -739,7 +739,7 @@ br {
   margin-top: 7px;
   margin: none;
   list-style: none;
-  padding-left: 0px;
+  padding-left: none;
 }
 
 .noStyle1 {
@@ -748,7 +748,7 @@ br {
   margin-top: 10px;
   margin: none !important;
   list-style: none;
-  padding-left: 0px;
+  padding-left: none;
 }
 
 .noMarginNoPadding {
@@ -827,8 +827,8 @@ br {
 @font-face {
   font-family: 'nyt-cheltenham';
   src: url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.f99a0459024509f157a3352e5de4f873.woff2') format('woff2'),
-       url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff') format('woff'),
-       url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.c690b74328fddd7feff3bc4c1c1a0cd8.ttf') format('truetype');
+  url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff') format('woff'),
+  url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.c690b74328fddd7feff3bc4c1c1a0cd8.ttf') format('truetype');
   font-style: italic;
   font-weight: 700;
   font-display: swap;
