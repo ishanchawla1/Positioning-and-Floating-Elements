@@ -91,6 +91,7 @@ a:hover {
   color: white;
   border: 1px;
 }
+
 .bottomButton {
   all: unset;
   font-size: 11px;
@@ -106,12 +107,15 @@ a:hover {
   width: 300px;
   text-align: center;
 }
+
 .topButton:hover{
   background-color : #326891;
 }
+
 .bottomButton:hover{
   background-color : #326891;
 }
+
 .imageTitle {
   padding-top: 5px;
   color: #666;
@@ -137,10 +141,12 @@ font-family: nyt-imperial,georgia,'times new roman',times,serif;
 .left {
   float: left;
 }
+
 .fontDate{
   font-weight: 500;
   font-size: 13px;
 }
+
 .right {
   float: right;
   display: flex;
@@ -202,7 +208,6 @@ a:hover {
   grid-template-rows: 30px 675px 15px 100px;
 }
 
-
 .imgT {
   grid-column: 2/3;
   grid-row: 4/5;
@@ -213,6 +218,7 @@ a:hover {
   grid-template-columns: 1fr 300px 600px 300px 1fr;
   grid-template-rows: 35px 15px 20px 35px repeat(5,auto) ;
 } 
+
 .container3_1 {
   margin-top: 25px;
   display: grid;
@@ -227,19 +233,23 @@ a:hover {
   grid-column: 3/4;
   grid-row: 1/2;
 }
+
 .mainText{
   margin-bottom: 15px;
 }
+
 .mainVideo{
   margin-top: 20px;
   width: 600px;
   height: 358px;
 }
+
 .mainSectionImage{
   width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .mainSectionImage > img:nth-child(1) {
   width: 720px;
  }
@@ -254,6 +264,7 @@ a:hover {
   margin-bottom: 40px;
 
 }
+
 .imageFooter{
   color: #666;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
@@ -265,20 +276,24 @@ a:hover {
   font-weight: 400;
   margin-bottom: 40px;
 }
+
 .imageFooterCredit{
   font-size: 13px;
 }
+
 .mainFooterText{
   font-size: 12px;
   font-weight: 400;
   color:rgb(102, 102, 102);
   margin-bottom: 20px;
 }
+
 .editorSidebarElementsHeading{
   margin: 10px 10px 15px 10px;
   font-weight: 700;
   font-size: 14px;
 }
+
 .editorsSidebar{
   margin-top: auto;
   margin-bottom: auto;
@@ -286,27 +301,31 @@ a:hover {
   grid-column: 4/5;
   grid-row: 5;
 }
+
 h3{
   all:unset;
 }
+
 .editorSidebarText{
   font-size: 14px;
   font-weight: 300;
   color: rgb(51, 51, 51);
 }
+
 .editorSidebarImage{
   width: 75px;
   height: 75px;
   display: block;
   margin-right: 10px ;
 }
+
 .editorSidebarElements{
   margin: 10px;
- 
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
 .social {
   grid-column: 3/4;
   grid-row: 3/4;
@@ -338,10 +357,12 @@ justify-content: space-between;
   grid-column: 2/3;
   grid-row: 3/4;
 }
+
 .inflationHeadText{
   font-size: 11px;
   font-weight: 700;
 }
+
 .text0 {
   font-size: 20px;
   font-weight: 700;
@@ -349,6 +370,7 @@ justify-content: space-between;
   grid-row: 1;
   margin-bottom: 10px;
 }
+
 .text1 {
   font-size: 14px;
   font-weight: 400;
@@ -358,6 +380,7 @@ justify-content: space-between;
   grid-row: 2;
   margin-bottom: 10px;
 }
+
 .text2 {
   font-size: 14px;
   font-weight: 200 !important;
@@ -366,6 +389,7 @@ justify-content: space-between;
   grid-row: 4;
   padding: 10px;
 }
+
 .text3 {
   font-size: 14px;
   font-weight: 200;
@@ -433,6 +457,7 @@ justify-content: space-between;
   grid-column: 2/-1;
   grid-row: 8;
 }
+
 .halfBorder{
   grid-column: 2;
   grid-row: 7;
@@ -440,13 +465,14 @@ justify-content: space-between;
   color: #2f2d2d;
   width: 50%;
   margin-left: 0;
-
 }
+
 .inflationFooter{
   font-size: 14px;
   font-weight: 600px;
   margin-bottom: 14px;
 }
+
 .container5 {
   display: grid;
   grid-template-columns: repeat(7,2fr);
@@ -472,30 +498,37 @@ justify-content: space-between;
   grid-column: 4;
   grid-row: 3;
 }
+
 .image4{
   grid-column: 2;
   grid-row: 5;
 }
+
 .image5{
   grid-column: 3;
   grid-row: 5;
 }
+
 .image6{
   grid-column: 4;
   grid-row: 5;
 }
+
 .image7{
   grid-column: 2;
   grid-row: 9;
 }
+
 .image8{
   grid-column: 3;
   grid-row: 9;
 }
+
 .image9{
   grid-column: 4;
   grid-row: 9;
 }
+
 .sideLinks{
   font-size: 19px;
   font-weight: 500;
@@ -505,59 +538,72 @@ justify-content: space-between;
   grid-column: 5/7;
   grid-row: 3/-1;
 }
+
 .borderSectionTop{
   border-top: 0.5px solid;
   grid-row: 1;
   grid-column: 2/5;
   margin-right: 20px;
 }
+
 .borderSectionTopSide{
   border-top: 0.5px solid;
   grid-row: 1;
   grid-column: 5/7;
   margin-left: 10px;
 }
+
 .kk{
   border-top: 0.2px;
   border-color: #e2e2e2;
   color: #888;
 }
+
 .imageDescription1{
   grid-column: 2;
   grid-row: 4;
 }
+
 .imageDescription2{
   grid-column: 3;
   grid-row: 4;
 }
+
 .imageDescription3{
   grid-column: 4;
   grid-row: 4;
 }
+
 .imageDescription4{
   grid-column: 2;
   grid-row: 6;
 }
+
 .imageDescription5{
   grid-column: 3;
   grid-row: 6;
 }
+
 .imageDescription6{
   grid-column: 4;
   grid-row: 6;
 }
+
 .imageDescription7{
   grid-column: 2;
   grid-row: 10;
 }
+
 .imageDescription8{
   grid-column: 3;
   grid-row: 10;
 }
+
 .imageDescription9{
   grid-column: 4;
   grid-row: 10;
 }
+
 .source{
   font-size: 10px;
   font-weight: 400;
@@ -565,24 +611,25 @@ justify-content: space-between;
   color: rgb(153, 153, 153);
   float: right;
 }
+
 .editorPicksTopBorder{
   border-top: 1px solid;
   grid-row: 7;
   grid-column: 2/5;
 }
+
 .descriptionTitle{
   font-size: 18px;
   font-weight: 500;
 }
+
 .descriptionDate{
  color: rgb(153, 153, 153);
  font-size: 12px;
  margin-top: 2px;
  font-weight: 500;
 }
-.moreText1{
 
-}
 .container5MainHeader{
   grid-row: 1;
   grid-column: 2;
@@ -590,8 +637,8 @@ justify-content: space-between;
   font-weight: 700;
   margin-top: 15px;
   margin-bottom: auto;
-  
 }
+
 .container5SidebarHeader{
   grid-row: 1;
   margin-left: 15px;
@@ -610,30 +657,36 @@ justify-content: space-between;
   margin-top: auto;
   margin-bottom: auto; 
 }
+
 p{
   margin: 0px;
   padding: 0px;
 }
+
 br{
   margin: 0px;
   padding: 0px;
 }
+
 .footerContainer{
   display: grid;
   grid-template-columns: repeat(6,2fr) 3fr 2fr;
   grid-template-rows: 1px 50px 350px;
 }
+
 .footerTopBorder{
   grid-row: 1;
   border: 1px solid;
   grid-column: 2/8;
 }
+
 .footerTopImage{
   width: 170px;
   grid-column: 2/6;
   grid-row: 2;
   padding: 10px 10px 10px 0px;
 }
+
 .goToHomePage{
   font-size: 11px;
   font-weight: 400;
@@ -641,41 +694,45 @@ br{
   margin: auto 5px auto auto;
   grid-row: 2;
 }
+
 .colorGoTo{
   color: #567b95 !important;
 }
+
 .firstColumns{
   grid-column: 2;
   grid-row: 3;
-
 }
+
 .secondColumns{
   grid-column: 3;
   grid-row: 3;
-
 }
+
 .thirdColumns{
   grid-column: 4;
   grid-row: 3;
-
 }
+
 .fourthColumns{
   grid-column: 5;
   grid-row: 3;
-
 }
+
 .fifthColumns{
   grid-column: 6;
   grid-row: 3;
-
 }
+
 .footerImg{
   width: 12px;
 }
+
 .footerLinkText{
   font-weight: 700;
   height:25px;
 }
+
 .noStyle{
   font-size: 14px;
   font-weight: 500;
@@ -684,6 +741,7 @@ br{
   list-style: none;
   padding-left: 0px;
 }
+
 .noStyle1{
   font-size: 11px;
   font-weight: 500;
@@ -692,24 +750,29 @@ br{
   list-style: none;
   padding-left: 0px;
 }
+
 .noMarginNoPadding{
   margin: none;
   padding: none;
 }
+
 .sixthColumns{
   grid-column: 7;
   grid-row: 3;
 }
+
 .footerTitleText{
   padding: 0;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .footerLinkTexts{
   padding: 0;
   font-size: 16px;
 }
+
 .footerLinks{
   margin-left: auto;
 margin-right: auto;
@@ -717,9 +780,11 @@ margin-bottom: 25px;
 text-align: center;
 font-size: 11px;
 }
+
 .colGrey{
   color: #666666 !important;
 }
+
 .bottomNavigation{
   border-top: 1px solid #e2e2e2;
   padding: 10px;
@@ -730,6 +795,7 @@ font-size: 11px;
   bottom: 0;
   background-color: white;
 }
+
 .bottomNavigationText{
   margin-left: auto;
   margin-right: 200px;
@@ -738,6 +804,7 @@ font-size: 11px;
   font-weight: 400;
 width: auto;
 }
+
 .bottomNavigationButton{
   float: right;
   display: flex;
@@ -745,15 +812,18 @@ width: auto;
   margin-left: 0;
   margin-right: 200px;
 }
+
 .bottomNavigationButtonText{
   margin-right: 50px;
   font-size: 11px;
   margin-top: 6px;
   font-weight: 700;
 }
+
 .upArrow{
   width: 16px;
 }
+
 @font-face {
   font-family: 'nyt-cheltenham';
   src: url('https://www.nytimes.com/fonts/family/cheltenham/cheltenham-italic-700.f99a0459024509f157a3352e5de4f873.woff2') format('woff2'),
