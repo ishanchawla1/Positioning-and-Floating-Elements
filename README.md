@@ -12,7 +12,7 @@ CSS grid & Flex bo
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ishanchawla1/Positioning-and-Floating-Elements/814bee5e8d651c547275d74c6afe91568ae4470b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/ishanchawla1/Positioning-and-Floating-Elements/55198c8aa2f456af37c9599a904c0ed5a704adb0/index.html)
 
 
 ## Getting Started
