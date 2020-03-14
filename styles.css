@@ -620,6 +620,10 @@ h3 {
   font-weight: 500;
 }
 
+.marginBottom {
+  margin-bottom: 5px;
+}
+
 .descriptionDate {
   color: rgb(153, 153, 153);
   font-size: 12px;
