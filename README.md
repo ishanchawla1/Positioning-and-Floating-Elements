@@ -1,4 +1,4 @@
-# New York Times CLone
+# New York Times Clone
 
 > This project was made as a part of Microverse Curriculum for FUll Stack Developer for Positioning-and-Floating-Elements Project
 
